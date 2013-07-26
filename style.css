@@ -1,0 +1,62 @@
+html, body {
+	margin:0;
+	background-color: #eee;
+	font-family: Helvetica, Arial;
+	color:#fff;
+}
+
+form {
+	width:40%;
+	margin:0 auto;
+	margin-top: 13%;
+	background-color: #00c48f;
+	text-align: center;
+	padding:10px;
+	box-shadow: 2px 2px 2px #aaa;
+	border-radius:3px;
+}
+
+.textInput {
+	width:80%;
+	border:1px solid #ccc;
+	border-radius:3px;
+	min-height: 35px;
+	text-align: center;
+	font-size: 150%;
+	font-weight: 700;
+}
+
+/**
+Override the browser settings
+**/
+.textInput:focus {
+	outline: none;
+	box-shadow: 2px 2px 4px #00a26d;
+}
+
+#submitButton {
+	border:1px solid #00a26d;
+	border-radius:3px;
+	background-color: #00a26d;
+	padding: 2%;
+	width:30%;
+	font-weight: 700;
+	font-size: 120%;
+	color:#fff;
+	box-shadow: 0px 1px 1px 0px inset #00a26d;
+}
+
+#submitButton:hover {
+	cursor: pointer;
+	background-color: #55f7bf;
+}
+
+#messageContainer {
+	width:30%;
+	margin:0 auto;
+	text-align: center;
+	background-color: #00c48f;
+	padding:12px;
+	margin-top: 20%;
+	border-radius:3px;
+}
